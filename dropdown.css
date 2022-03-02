@@ -1,0 +1,177 @@
+/*    /*
+
+/*a
+{
+	transition:all .3s ease
+	}*/
+
+.vg-nav {
+    position: relative;
+    z-index: 100;
+}
+
+.vg-nav>ul {
+    display: inline;
+    list-style: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.left {
+    margin-top: 20px;
+}
+
+.dropdown ul {
+    padding: 10;
+    display: none;
+}
+
+.dropdown>ul .left {
+    left: 0px;
+}
+
+.dropdown>ul .right {
+    right: 0
+}
+
+.dropdown>ul ul {
+    /*transition: all 0.4s ease;*/
+    position: absolute;
+    top: 120%;
+    opacity: 0;
+    visibility: hidden;
+    width: 200px;
+    /* display: inline;*/
+}
+
+.dropdown>ul .dropdown ul.left {
+    left: 100%
+}
+
+.dropdown>ul .dropdown ul.right {
+    right: 100%
+}
+
+
+/*.dropdown>ul .dropdown.show>ul {
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+    background-color: red;
+}*/
+
+.dropdown-mega .dropdown-mega-container {
+    /* transition: all 0.4s ease;*/
+    position: absolute;
+    top: 120%;
+    opacity: 0;
+    visibility: hidden;
+    left: 0;
+    width: 100%;
+    min-height: 300px;
+}
+
+.dropdown-mega-container {
+    visibility: visible;
+    opacity: 1;
+    top: 100%
+}
+.vg-nav .dropdown ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    padding: 15px;
+    color: #232323;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: none;
+    list-style: none;
+}
+
+
+
+
+.vg-nav>ul>li.active a,
+.vg-nav>ul>li a:hover {
+    color: #236da9;
+}
+
+.vg-nav>ul>li {
+    padding: 20px 25px;
+    display: inline-flex;
+}
+
+.vg-nav>ul>li>a {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #232323;
+    text-decoration: none
+}
+
+li {
+    list-style: none;
+}
+
+
+/*vgnavtheme*/
+
+.vg-nav .dropdown ul {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.15);
+}
+
+.vg-nav .dropdown ul ul {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+
+/*	.vg-nav-hover>ul .dropdown:hover>a span.toggle {
+    transform: rotate(-180deg)
+}*/
+
+
+/*.vg-nav-hover>ul .dropdown:hover>ul {
+    visibility: visible;
+  /*  display: block;
+    opacity: 1;
+    top: 100%;
+}*/
+
+.vg-nav-hover>ul .dropdown:hover .dropdown:hover>ul {
+   visibility: visible;
+    opacity: 1;
+    top: 0;
+}
+
+
+
+
+.vg-nav-hover>ul .dropdown-mega:hover .dropdown-mega-container {
+    visibility: visible;
+    opacity: 1;
+    top: 100%
+}
+
+.vg-nav-hover>ul .dropdown-mega:hover>a span.toggle {
+    /* transform: rotate(-180deg)
+}*/
+    /*.active a,.vg-nav>ul>li a:hover
+	{
+		color:#236da9
+	}
+.dropdown>ul {
+    transition: all 0.4s ease;
+    position: absolute;
+    top: 120%;
+    opacity: 0;
+    visibility: hidden;
+    width: 200px;
+}
+
+ .dropdown ul{
+		background:rgba(255,255,255,0.9);
+		box-shadow:0 4px 7px rgba(0,0,0,0.15)
+	}
+	*/
+    */*/

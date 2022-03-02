@@ -1,0 +1,208 @@
+*{
+	background-color: lightgrey;
+
+
+}
+ul{
+	background-color:white;
+	max-height: 40px;
+	list-style: none;
+	display: inline-block;
+	width: 100%;
+	text-decoration: none;
+	margin-left: 30px;
+
+
+
+}
+ul>li{
+	margin-left: 40px;
+}
+
+
+/*
+ul>li{
+	display: inline-block;
+	background-color: grey;
+	max-height:50px;
+	margin-top: -10px;
+	
+	padding: 2px;
+	font-family: 'lobster',cursive;
+	
+	
+
+
+}*/
+/*
+
+ul>li>ul>li{
+	display: none;
+	max-width: 100px;
+	border: 0px;
+
+	
+
+}
+
+ul>li:hover li{
+	display: block;
+	margin-left:-40px;	
+	background-color: white;
+	cursor: pointer;
+	margin:-10px;
+
+}
+ul>li>ul>li>ul{
+	display: none;
+	
+	margin-left:500px;
+	max-width: 100px;
+	padding-left: 50px;
+	background-color: green;
+
+	
+}
+
+ul>li>ul>li:hover ul{
+	margin-left: 60px;
+	display: block;
+	margin-top: -20px;
+	margin-left: 50px;
+	cursor: pointer;
+	padding-top: 5px;
+	background-color: green;
+
+
+}*/
+/*.dropdown ul li a{
+		text-decoration:none;
+		font-size:14px;
+		display:block;
+		padding:15px;
+		color:#232323;
+		border:1px solid rgba(0,0,0,0.1);
+		border-top:none
+		}
+
+
+
+
+
+*/
+
+
+
+
+/*.sub>li {
+ 	display: none;
+ 	padding-top: 0px;
+ 	border: thin solid black;
+ 	list-style: none;
+ 	padding-left: 0px;
+
+}*/
+/*.navbar a:hover .sub{
+	display: block;
+
+	
+
+	
+
+}*/
+
+	
+
+
+
+
+/*li{	
+	padding: 10px;
+	text-align: center;
+	width: 100px;
+	position: relative;
+}
+
+
+
+
+
+/*li:hover .submenu{
+	display: block;
+
+	
+
+}
+
+
+.list:hover{
+	background-color: white;
+}*/
+
+*/
+.gallery{
+	margin-left:30px;
+	padding-top: 20px;
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+.gallery img{
+	height: 200px;
+	padding:10px;
+	margin-left: 0px;
+
+	
+	
+	border: 1px #ccc solid;
+
+	
+}
+/*.gallery :hover{
+	border: 1px solid #222;
+	DrAchyut Acharya 9802111729.
+}*/
+
+#intro {
+
+	margin-right: 500px;
+	font-size: 1em;
+	float: left;
+	padding: 30px;
+	text-decoration: none;
+	color: black;
+
+	
+}
+.p{
+	font-family: serif;
+
+
+}
+.h2{
+	font-family: 'Great Vibes', cursive;
+	font-size:40px;
+	padding-top: 30px;
+	color: black;
+}
+
+#about{
+	float: right;
+	margin-left: 500px;
+
+}
+
+.bottom{
+	background-color: #000000;
+	min-height: 200px;
+	color: white;
+
+}
+
+.rightbottom{
+	margin-left: 500px;
+	background-color: #000000;
+
+}
+ 
+ 
